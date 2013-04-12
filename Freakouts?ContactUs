@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		
+		<style>
+			body {
+				background-color: #84cecc; 	
+				color: black;
+				line-height: 2;
+			}
+			a {
+				color: white;
+			}
+			.well {
+				background-color: #3c2000;
+			}
+			.well2 {
+				background-color: rgba(225, 225, 225, 0.2);
+			}
+			.special {
+				color: #339933;
+				font-weight: bold;
+			}
+			</style>
+		<title> Contact Us </title>
+	</head>
+	<body>
+		<div class="well">
+			<center>
+				<span class="btn btn-success btn-large">
+					<i class="icon-home icon-white"></i>
+					<a href="Home.html">Homepage</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-picture icon-white"> </i>
+					<a href="Photos.html">Photo Gallery</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-th icon-white"> </i>
+					<a href="Products.html">Products</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-book icon-white"></i>
+					<a href="Commercial.html">Commercial</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-envelope icon-white"></i>
+					<a href="Contact.html">Contact Us</a>
+				</span>
+			</center>
+		</div>
+		<br>
+		<br>
+		<div class="well2">
+			<div class="row">
+				<br>
+				<br>
+				<br>
+				<div id="contact" class="span4 offset2">
+					<b>Contact Information</b>
+					<br>
+					For sizing, pricing or other questions, please enter your information below, and we will contact you shortly.  
+					You can also reach us by phone at (425) 870-3322.
+				</div>	
+				<br>
+				<div id="forminfo" class="span8 offset1">
+					<form method="post" action="emailform.php">
+						Name: &thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;	
+						<input type="text" name="name" value="Your Name" size="30"/>
+						<br>
+						Phone:&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;
+						<input type="text" name="phone number" value="(xxx) xxx-xxxx" size="30"/>
+						<br>
+						Email:&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;
+						<input type="text" name="email" value="Your email address" size="30"/>
+						<br>
+						Comments: 
+						<textarea rows="5">
+							Please enter questions or comments here.
+						</textarea>
+						<br>
+						<input type="submit" value="Send"/> &nbsp; 
+						<input type="reset" value="Reset"/>
+					</form>
+				</div>		
+			</div>	
+		</div>	
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<center>
+			<h5>
+				Call Pacific Northwest Metal Crafters
+				<br>
+				(425) 870-3322
+			</h5>
+			<p>
+				Header Graphic: Gary DeWitt <a class="special" href="http://signtorch.com/" target="_blank"> SignTorch Vector Graphics</a>
+				&emsp;
+				Custom Art Graphics <a class="special" href="http://www.customdxffiles.com/" target="_blank">Free DXF | Designs Ready for CNC</a>
+				&emsp;
+				CNC Cutting Machine <a class="special" href="http://www.torchmate.com/index.html" target="_blank"> Tourchmate</a>
+			</p>
+		</center>
+		
+		<!-- Placed at the end of the document so the pages load faster -->
+    	<script src="http://code.jquery.com/jquery-1.8.0.min.js" type="text/javascript"></script>
+    	<script src="js/bootstrap.js" type="text/javascript"></script>
+	</body>
+	</html>
