@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+		<LINK rel="stylesheet" href="css/bootstrap.css" type="text/css">
+		<style>
+			body {
+				background-color: #84cecc; 	
+				color: black;
+				line-height: 2;
+			}
+			a {
+				color: white;
+			}
+			.well {
+				background-color: #3c2000;
+			}
+			.well2 {
+				background-color: rgba(225, 225, 225, .2);
+			}
+			.special {
+				color: #339933;
+				font-weight: bold;
+			}
+		</style>
+		<title>Photo Gallery</title>
+	</head>
+	<body>
+		<div class="well">
+			<center>
+				<span class="btn btn-success btn-large">
+					<i class="icon-home icon-white"></i>
+					<a href="Home.html">Homepage</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-picture icon-white"> </i>
+					<a href="Photos.html">Photo Gallery</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-th icon-white"> </i>
+					<a href="Products.html">Products</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-book icon-white"></i>
+					<a href="Commercial.html">Commercial</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-envelope icon-white"></i>
+					<a href="Contact.html">Contact Us</a>
+				</span>
+			</center>
+		</div>
+		<div class="well2">
+			<div class="row">
+				<div id="words" class="span6 offset2">
+					<br>
+					<br>
+					<br>
+					<p>
+						Here are a few examples of the many figures and silhouettes that we have availiable from our catalogs. With thousands of 	images to choose from, and an almost unlimited sizing potential, we can combine your ideas with our art work to make truly one of a kind creations. Whether it's that custom entry gate with your family name inserted, or a one of a kind handrail with beautiful wildlife inserts, we can make it. 
+					</p>	
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<center>
+						<img src="sign.jpg">
+					</center>
+					<br>
+				</div>
+				<div id="pics" class="span6 offset2">
+					<br>
+					<img src="animal.jpg"> &thinsp;
+					<img src="cyote.jpg">
+					<br>
+					<br>
+					<img src="dog.jpg"> &thinsp;
+					<img src="eagle.jpg">
+					<br>
+					<br>
+					<img src="biker.jpg"> &thinsp;
+					<img src="globe.jpg">
+					<br>
+					<br>
+					<img src="guitar.jpg"> &thinsp;
+					<img src="idk.jpg">
+					<br>
+					<br>
+					<img src="anchor.jpg"> &thinsp;
+					<img src="elk.jpg">
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<center>
+			<h5>
+				Call Pacific Northwest Metal Crafters
+				<br>
+				(425) 870-3322
+			</h5>
+			<p>
+				Header Graphic: Gary DeWitt <a class="special" href="http://signtorch.com/" target="_blank"> SignTorch Vector Graphics</a>
+				&emsp;
+				Custom Art Graphics <a class="special" href="http://www.customdxffiles.com/" target="_blank">Free DXF | Designs Ready for CNC</a>
+				&emsp;
+				CNC Cutting Machine <a class="special" href="http://www.torchmate.com/index.html" target="_blank"> Tourchmate</a>
+			</p>
+		</center>
+		<!-- Placed at the end of the document so the pages load faster -->
+    	<script src="http://code.jquery.com/jquery-1.8.0.min.js" type="text/javascript"></script>
+    	<script src="js/bootstrap.js" type="text/javascript"></script>
+	</body>
+	</html>
