@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
 		<LINK rel="stylesheet" href="css/bootstrap.css" type="text/css">
-		<title> PNWMC </title>
+		<title> Pacific Northwest Metal Crafters</title>
 		<style type="text/css">
 			body { 
 				background-color: #84cecc; 	
@@ -22,6 +22,9 @@
 				text-align: center;
 				text-indent: 450px;
 			}
+			img {
+				width: 100%;
+			}
 			.well2 {
 				background-color: rgba(225, 225, 225, .2);
 			}
@@ -37,39 +40,73 @@
 				color: #339933;
 				font-weight: bold;
 			}
+			.diff {
+				color: #3c2000;
+			}
+			$('.dropdown-toggle').dropdown()
 		</style>
 	</head>
 	<body>
 		<img src="Welcome3.jpg" width="2000px" height="325px">
 		<div class="well">
-			<div id="links">
-				<center>
-					<span class="btn btn-success btn-large">
-						<i class="icon-home icon-white"></i>
-						<a href="Home.html">Homepage</a>
-					</span>
-					&emsp;
-					<span class="btn btn-success btn-large">
-						<i class="icon-picture icon-white"> </i>
-						<a href="Photos.html">Photo Gallery</a>
-					</span>
-					&emsp;
-					<span class="btn btn-success btn-large">
-						<i class="icon-th icon-white"> </i>
+			<center>
+				<span class="btn btn-success btn-large">
+					<i class="icon-home icon-white"></i>
+					<a href="Home.html">Homepage</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-picture icon-white"> </i>
+					<a href="Photos.html">Photo Gallery</a>
+				</span>
+				&emsp;
+				<div class="btn-group">
+					<button class="btn btn-success btn-large">
+						<i class="icon-th icon-white"></i>&emsp;
 						<a href="Products.html">Products</a>
-					</span>
-					&emsp;
-					<span class="btn btn-success btn-large">
-						<i class="icon-book icon-white"> </i>
-						<a href="Commercial.html">Commercial</a>
-					</span>
-					&emsp;
-					<span class="btn btn-success btn-large">
-						<i class="icon-envelope icon-white"></i>
-						<a href="Contact.html">Contact Us</a>
-					</span>
-				</center>
-			</div> 	
+					</button>
+  					<button class="btn dropdown-toggle btn-success btn-large" data-toggle="dropdown">
+   						<span class="caret">
+   						</span>
+   						<br>
+  					</button>
+  					<ul class="dropdown-menu">
+    								<!-- dropdown menu links -->
+    					<a class="diff" href="">Western</a>
+    					<br>
+    					<a class="diff" href="">Cats &amp; Dogs</a>
+    					<br>
+    					<a class="diff" href="">Scenery</a>
+    					<br>
+    					<a class="diff"href="">Miscellaneous</a>
+    					<br>
+    					<a class="diff"href="">Music &amp; Dance</a>
+    					<br>
+    					<a class="diff"href="">Sports</a>
+    					<br>
+    					<a class="diff"href="">Animals</a>
+    					<br>
+    					<a class="diff"href="">Faith</a>
+    					<br>
+    					<a class="diff"href="">Vehicles</a>
+    					<br>
+    					<a class="diff"href="">Holiday</a>
+    					<br>
+    					<a class="diff"href="">Handrail Inserts</a>
+    					<br>
+  					</ul>
+				</div>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-book icon-white"></i>
+					<a href="Commercial.html">Commercial</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-envelope icon-white"></i>
+					<a href="Contact.html">Contact Us</a>
+				</span>
+			</center>
 		</div>
 		<br>
 		<h1> Pacific Northwest Metal Crafters</h1>
