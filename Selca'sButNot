@@ -43,7 +43,7 @@
 				&emsp;
 				<div class="btn-group">
 					<button class="btn btn-success btn-large">
-						<i class="icon-th icon-white"></i>&emsp;
+						<i class="icon-th icon-white"></i>
 						<a href="Products.html">Products</a>
 					</button>
   					<button class="btn dropdown-toggle btn-success btn-large" data-toggle="dropdown">
