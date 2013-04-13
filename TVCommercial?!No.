@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
 		<LINK rel="stylesheet" href="css/bootstrap.css" type="text/css">
 		<style>
 			body {
@@ -21,6 +21,10 @@
 				color: #339933;
 				font-weight: bold;
 			}
+			.diff {
+				color: #3c2000;
+			}
+			$('.dropdown-toggle').dropdown()
 		</style>
 		<title>Commercial</title>
 	</head>
@@ -37,10 +41,42 @@
 					<a href="Photos.html">Photo Gallery</a>
 				</span>
 				&emsp;
-				<span class="btn btn-success btn-large">
-					<i class="icon-th icon-white"> </i>
-					<a href="Products.html">Products</a>
-				</span>
+				<div class="btn-group">
+					<button class="btn btn-success btn-large">
+						<i class="icon-th icon-white"></i>&emsp;
+						<a href="Products.html">Products</a>
+					</button>
+  					<button class="btn dropdown-toggle btn-success btn-large" data-toggle="dropdown">
+   						<span class="caret">
+   						</span>
+   						<br>
+  					</button>
+  					<ul class="dropdown-menu">
+    								<!-- dropdown menu links -->
+    					<a class="diff" href="">Western</a>
+    					<br>
+    					<a class="diff" href="">Cats &amp; Dogs</a>
+    					<br>
+    					<a class="diff" href="">Scenery</a>
+    					<br>
+    					<a class="diff"href="">Miscellaneous</a>
+    					<br>
+    					<a class="diff"href="">Music &amp; Dance</a>
+    					<br>
+    					<a class="diff"href="">Sports</a>
+    					<br>
+    					<a class="diff"href="">Animals</a>
+    					<br>
+    					<a class="diff"href="">Faith</a>
+    					<br>
+    					<a class="diff"href="">Vehicles</a>
+    					<br>
+    					<a class="diff"href="">Holiday</a>
+    					<br>
+    					<a class="diff"href="">Handrail Inserts</a>
+    					<br>
+  					</ul>
+				</div>
 				&emsp;
 				<span class="btn btn-success btn-large">
 					<i class="icon-book icon-white"></i>
