@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		
+
 		<style>
 			body {
 				background-color: #84cecc; 	
@@ -22,6 +22,10 @@
 				color: #339933;
 				font-weight: bold;
 			}
+			.diff {
+				color: #3c2000;
+			}
+			$('.dropdown-toggle').dropdown()
 			</style>
 		<title> Contact Us </title>
 	</head>
@@ -38,10 +42,42 @@
 					<a href="Photos.html">Photo Gallery</a>
 				</span>
 				&emsp;
-				<span class="btn btn-success btn-large">
-					<i class="icon-th icon-white"> </i>
-					<a href="Products.html">Products</a>
-				</span>
+				<div class="btn-group">
+					<button class="btn btn-success btn-large">
+						<i class="icon-th icon-white"></i>&emsp;
+						<a href="Products.html">Products</a>
+					</button>
+  					<button class="btn dropdown-toggle btn-success btn-large" data-toggle="dropdown">
+   						<span class="caret">
+   						</span>
+   						<br>
+  					</button>
+  					<ul class="dropdown-menu">
+    								<!-- dropdown menu links -->
+    					<a class="diff" href="">Western</a>
+    					<br>
+    					<a class="diff" href="">Cats &amp; Dogs</a>
+    					<br>
+    					<a class="diff" href="">Scenery</a>
+    					<br>
+    					<a class="diff"href="">Miscellaneous</a>
+    					<br>
+    					<a class="diff"href="">Music &amp; Dance</a>
+    					<br>
+    					<a class="diff"href="">Sports</a>
+    					<br>
+    					<a class="diff"href="">Animals</a>
+    					<br>
+    					<a class="diff"href="">Faith</a>
+    					<br>
+    					<a class="diff"href="">Vehicles</a>
+    					<br>
+    					<a class="diff"href="">Holiday</a>
+    					<br>
+    					<a class="diff"href="">Handrail Inserts</a>
+    					<br>
+  					</ul>
+				</div>
 				&emsp;
 				<span class="btn btn-success btn-large">
 					<i class="icon-book icon-white"></i>
@@ -80,7 +116,7 @@
 						<input type="text" name="email" value="Your email address" size="30"/>
 						<br>
 						Comments: 
-						<textarea rows="5">
+						<textarea rows="8">
 							Please enter questions or comments here.
 						</textarea>
 						<br>
@@ -89,6 +125,8 @@
 					</form>
 				</div>		
 			</div>	
+			<br>
+			<br>
 		</div>	
 		<br>
 		<br>
