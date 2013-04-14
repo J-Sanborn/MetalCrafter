@@ -41,6 +41,18 @@
 					<a href="Photos.html">Photo Gallery</a>
 				</span>
 				&emsp;
+			<div class="well">
+			<center>
+				<span class="btn btn-success btn-large">
+					<i class="icon-home icon-white"></i>
+					<a href="Home.html">Homepage</a>
+				</span>
+				&emsp;
+				<span class="btn btn-success btn-large">
+					<i class="icon-picture icon-white"> </i>
+					<a href="Photos.html">Photo Gallery</a>
+				</span>
+				&emsp;
 				<div class="btn-group">
 					<button class="btn btn-success btn-large">
 						<i class="icon-th icon-white"></i>
@@ -53,27 +65,27 @@
   					</button>
   					<ul class="dropdown-menu">
     								<!-- dropdown menu links -->
-    					<a class="diff" href="">Western</a>
+    					<a class="diff" href="Western.html">Western</a>
     					<br>
-    					<a class="diff" href="">Cats &amp; Dogs</a>
+    					<a class="diff" href="C&D.html">Cats &amp; Dogs</a>
     					<br>
-    					<a class="diff" href="">Scenery</a>
+    					<a class="diff" href="Scene.html">Scenery</a>
     					<br>
-    					<a class="diff"href="">Miscellaneous</a>
+    					<a class="diff"href="Misc.html">Miscellaneous</a>
     					<br>
-    					<a class="diff"href="">Music &amp; Dance</a>
+    					<a class="diff"href="M&D.html">Music &amp; Dance</a>
     					<br>
-    					<a class="diff"href="">Sports</a>
+    					<a class="diff"href="Sports.html">Sports</a>
     					<br>
-    					<a class="diff"href="">Animals</a>
+    					<a class="diff"href="Animals.html">Animals</a>
     					<br>
-    					<a class="diff"href="">Faith</a>
+    					<a class="diff"href="Faith.html">Faith</a>
     					<br>
-    					<a class="diff"href="">Vehicles</a>
+    					<a class="diff"href="Vehicles.html">Vehicles</a>
     					<br>
-    					<a class="diff"href="">Holiday</a>
+    					<a class="diff"href="Holiday.html">Holiday</a>
     					<br>
-    					<a class="diff"href="">Handrail Inserts</a>
+    					<a class="diff"href="HI.html">Handrail Inserts</a>
     					<br>
   					</ul>
 				</div>
